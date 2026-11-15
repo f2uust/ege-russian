@@ -6,6 +6,7 @@
 import json, re, sys, pathlib
 from collections import Counter, defaultdict
 
+sys.stdout.reconfigure(encoding="utf-8")
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 VOW = set("аеёиоуыэюя")
 TARGET = {4: 0, 5: 40, 6: 20, 7: 20, 8: 10, 21: 20}
